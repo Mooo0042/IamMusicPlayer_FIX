@@ -37,4 +37,4 @@ etc..
 
 # Download
 
-https://www.curseforge.com/minecraft/mc-mods/iammusicplayer
+https://github.com/Mooo0042/IamMusicPlayer_FIX/releases/
