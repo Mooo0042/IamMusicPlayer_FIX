@@ -65,11 +65,11 @@ dependencies {
         exclude group: 'dev.arbjerg', module: 'lavaplayer-natives'
     }
 
-    shadowIn 'com.github.sealedtx:java-youtube-downloader:3.1.0'
+    shadowIn 'com.github.sealedtx:java-youtube-downloader:3.2.8'
     shadowIn "dev.felnull:felnull-java-library:${rootProject.felnull_version}"
     shadowIn 'com.mpatric:mp3agic:0.9.1'
 
-    shadowIn("dev.lavalink.youtube:v2:${rootProject.lava_version_youtube}")
+    shadowIn("dev.lavalink.youtube:v2:1.11.4")
 }
 
 processResources {
