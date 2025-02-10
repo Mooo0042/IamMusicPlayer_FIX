@@ -69,7 +69,7 @@ dependencies {
     }
     shadowIn 'com.github.sealedtx:java-youtube-downloader:3.1.0'*/
 
-    shadowIn("dev.arbjerg:lavaplayer:${rootProject.lava_version}") {
+    shadowIn("dev.arbjerg:lavaplayer:${rootProject.lava_version_youtube}") {
         exclude group: 'dev.arbjerg', module: 'lavaplayer-natives'
         exclude group: 'com.fasterxml.jackson.core', module: 'jackson-core'
         exclude group: 'com.fasterxml.jackson.core', module: 'jackson-databind'
