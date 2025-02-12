@@ -113,7 +113,6 @@ public class ClientHandler {
 
     private static InteractionResult onConfigSave(ConfigHolder<IMPConfig> configHolder, IMPConfig impConfig) {
         MusicEngine.getInstance().destroy();
-        NetEaseCloudMusicManager.getInstance().reload();
         return InteractionResult.PASS;
     }
 
