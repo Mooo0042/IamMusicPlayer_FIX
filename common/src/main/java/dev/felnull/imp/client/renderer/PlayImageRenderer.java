@@ -157,6 +157,8 @@ public class PlayImageRenderer {
             }
             return Pair.of(loc, new Vec2(w, h));
     }
+        return null;
+    }
 
     private static String extractSoundCloudImage(String html) {
         var ts = html.substring(html.indexOf(SCT_IMG_ST) + SCT_IMG_ST.length());
