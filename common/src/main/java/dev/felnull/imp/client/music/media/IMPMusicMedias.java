@@ -14,7 +14,6 @@ public class IMPMusicMedias {
     public static void init() {
         register("youtube", YOUTUBE);
         register("soundcloud", SOUNDCLOUD);
-        register("netease_cloud_music", NETEASE_CLOUD_MUSIC);
         register("http", HTTP);
     }
 
