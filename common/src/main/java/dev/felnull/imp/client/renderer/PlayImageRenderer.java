@@ -1,4 +1,4 @@
-rjpackage dev.felnull.imp.client.renderer;
+package dev.felnull.imp.client.renderer;
 
 import com.mojang.blaze3d.vertex.PoseStack;
 import dev.felnull.fnjl.util.FNMath;
