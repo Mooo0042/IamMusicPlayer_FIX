@@ -17,7 +17,7 @@ If you want to change the contents, please change the IamMusicPlayerDataGenerato
 
 ## Transration
 
-If a kind person translates it, please open an [ Issue or Pull requests ] !
+If a kind person translates it, please open an Pull requests!
 
 [Templates used for translation](https://github.com/TeamFelnull/IamMusicPlayer/tree/master/common/src/main/resources/assets/iammusicplayer/lang)  
 [Template used for translating patchouli](https://github.com/TeamFelnull/IamMusicPlayer/tree/master/resources/data/iammusicplayer/patchouli_books/manual)
@@ -37,4 +37,4 @@ etc..
 
 # Download
 
-https://github.com/Mooo0042/IamMusicPlayer_FIX/releases/
+https://github.com/Mod-Sauce/IamMusicPlayer_FIX/releases/

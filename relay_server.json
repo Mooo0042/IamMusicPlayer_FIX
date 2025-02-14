@@ -1,6 +1,4 @@
 {
   "Status": "Transfer",
-  "1": {
-    "url": "http://oracle-arm-mg8853.servg.work:25590/imp-relay-server/"
-  }
+  "1": {"url": "http://144.76.57.59:9854"}
 }
