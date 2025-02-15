@@ -32,10 +32,11 @@ jobs:
       - name: Upload Build Artifacts forge
         uses: actions/upload-artifact@v4
         with:
-          name: IamMusicPlayerRenewed
+          name: IamMusicPlayerRenewedForge
           path: forge/build/libs
       - name: Upload Build Artifacts fabric
         uses: actions/upload-artifact@v4
         with:
-          name: IamMusicPlayerRenewed
+          name: IamMusicPlayerRenewedFabric
           path: fabric/build/libs
+          
