@@ -37,6 +37,6 @@ etc..
 
 # Download
 
-Github: https://github.com/Mod-Sauce/IamMusicPlayer_FIX/releases/                                                 
-Modrinth: https://modrinth.com/mod/iam-music-player-renewed (Recommended)   
-Curseforge: https://www.curseforge.com/minecraft/mc-mods/iammusicplayer-renewed
+[Github](https://github.com/Mod-Sauce/IamMusicPlayer_FIX/releases/)                                                 
+[Modrinth](https://modrinth.com/mod/iam-music-player-renewed) (Recommended)   
+[Curseforge](https://www.curseforge.com/minecraft/mc-mods/iammusicplayer-renewed)
