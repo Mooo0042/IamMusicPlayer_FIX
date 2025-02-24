@@ -22,6 +22,8 @@ jobs:
           restore-keys: "${{ runner.os }}-gradle-"
       - uses: gradle/actions/wrapper-validation@v4
       - run: chmod +x ./gradlew
+      - name: DataGen
+        run: ./gradlew runDatagen
       - name: Build with Gradle
         run: ./gradlew build
       - name: Read minecraft version from gradle.properties
