@@ -29,9 +29,9 @@ jobs:
         with:
           name: IamMusicPlayerRenewedForge
           path: forge/build/libs
-      - name: Upload Build Artifacts # fabric
+      - name: Upload Build Artifacts fabric
         uses: actions/upload-artifact@v4
         with:
           name: IamMusicPlayerRenewedFabric
-          path: build/libs
+          path: fabric/build/libs
           
