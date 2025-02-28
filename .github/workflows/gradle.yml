@@ -24,11 +24,11 @@ jobs:
       - run: chmod +x ./gradlew
       - name: Build with Gradle
         run: ./gradlew build
-#      - name: Upload Build Artifacts forge
-#        uses: actions/upload-artifact@v4
-#        with:
-  #        name: IamMusicPlayerRenewedForge
-    #      path: forge/build/libs
+      - name: Upload Build Artifacts forge
+        uses: actions/upload-artifact@v4
+        with:
+          name: IamMusicPlayerRenewedForge
+          path: forge/build/libs
       - name: Upload Build Artifacts # fabric
         uses: actions/upload-artifact@v4
         with:
