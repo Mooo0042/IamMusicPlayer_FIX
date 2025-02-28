@@ -27,6 +27,9 @@
     "client": [
       "dev.felnull.imp.fabric.client.IamMusicPlayerClientFabric"
     ],
+    "fabric-datagen": [
+      "dev.felnull.imp.fabric.data.IamMusicPlayerDataGeneratorFabric"
+    ],
     "otyacraftengine_client": [
       "dev.felnull.imp.client.entrypoint.IMPOEClientEntryPoint"
     ]
