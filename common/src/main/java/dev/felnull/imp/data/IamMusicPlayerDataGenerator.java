@@ -11,8 +11,6 @@ import java.nio.file.Paths;
 public class IamMusicPlayerDataGenerator {
     public static void init(CrossDataGeneratorAccess access) {
         access.addResourceInputFolders(Paths.get("../../resources"));
-
-        access.addProviderWrapper(IMPRecipeProviderWrapper::new);
         var btp = access.addProviderWrapper(IMPBlockTagProviderWrapper::new);
 
         access.addProviderWrapper((DataProviderWrapper.LookupGeneratorAccessedFactory<DataProviderWrapper<?>>) (packOutput, lookup, generatorAccess) -> new IMPItemTagProviderWrapper(packOutput, lookup, generatorAccess, btp));
